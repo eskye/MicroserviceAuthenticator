@@ -23,5 +23,9 @@ jobs:
       run: dotnet build --configuration Release --no-restore
     - name: Test
       run: dotnet test --no-restore --verbosity normal
+      if: Build
     - name: pack
       run: dotnet pack
+    - name: push
+      run: dotnet nuget push MicroServiceAuthenticator.1.0.0.nupkg -k oy2pczc7eaqvngosgymqprzxyuilnfaerpbkfi4biuq67a -s https://api.nuget.org/v3/index.json
+    
