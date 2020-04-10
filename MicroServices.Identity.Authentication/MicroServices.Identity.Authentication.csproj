@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>MicroServiceAuthenticator</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Sunkanmi Ijatuyi</Authors>
+    <Company>Sunsoft Tech</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.2" /> 
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.2" /> 
+  </ItemGroup>
+</Project>
