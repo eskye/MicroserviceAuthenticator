@@ -27,5 +27,5 @@ jobs:
     - name: pack
       run: dotnet pack
     - name: push
-      run: dotnet nuget push MicroServiceAuthenticator.1.0.0.nupkg -k oy2pczc7eaqvngosgymqprzxyuilnfaerpbkfi4biuq67a -s https://api.nuget.org/v3/index.json
+      run: cd '/home/runner/work/MicroserviceAuthenticator/MicroserviceAuthenticator/MicroServices.Identity.Authentication/bin/Debug' && dotnet nuget push MicroServiceAuthenticator.1.0.0.nupkg -k oy2pczc7eaqvngosgymqprzxyuilnfaerpbkfi4biuq67a -s https://api.nuget.org/v3/index.json
     
