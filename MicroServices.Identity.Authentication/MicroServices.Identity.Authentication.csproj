@@ -3,9 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <PackageId>MicroServiceAuthenticator</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Sunkanmi Ijatuyi</Authors>
     <Company>Sunsoft Tech</Company>
+    <ProjectUrl>https://github.com/eskye/MicroserviceAuthenticator</ProjectUrl>
+    <RepositoryUrl>https://github.com/eskye/MicroserviceAuthenticator</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
