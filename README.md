@@ -1,7 +1,7 @@
 # MicroserviceAuthenticator
 This is a nuget package built in ASP.NET Core to help quickly setup authentication up and running on your Web api app and also secure microservices. It's built on jwtBearer library.
 
-![.NET Core](https://github.com/eskye/MicroserviceAuthenticator/workflows/.NET%20Core/badge.svg?branch=master)
+![.NET Core](https://github.com/eskye/MicroserviceAuthenticator/workflows/.NET%20Core/badge.svg?branch=master) ![Nuget](https://img.shields.io/nuget/dt/MicroServiceAuthenticator) ![Nuget](https://img.shields.io/nuget/v/MicroServiceAuthenticator)
 
 
 # Installation
@@ -48,7 +48,26 @@ public ConfigureServices(IServiceCollection services)
 ```
 
 
-# Testing
+## Testing
 Place the `[Authorize]` attribute on the controller you want to authenticate and use the identity service to get your token and set the token to the authorization of the api endpoint and boom you are authenticated successfully.
+
+## Contribution
+
+Feel free to send a PR.
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+[<img src="https://avatars0.githubusercontent.com/u/16523891?s=60&v=4" width="100px;"/><br /><sub><b>Sunkanmi Ijatuyi</b></sub>](https://github.com/eskye)<br />[💻](https://github.com/eskye/MicroserviceAuthenticator/commits?author=eskye "Code")
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind are welcome!
+
+### License
+
+MIT
+
 
 
