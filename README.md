@@ -67,7 +67,7 @@ This project follows the [all-contributors](https://github.com/kentcdodds/all-co
 
 ### License
 
-MIT
+MIT 
 
 
 
